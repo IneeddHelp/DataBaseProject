@@ -28,6 +28,16 @@
           </div>
         </li>
 
+        <li class="dropdown">
+            <a href="#department" class="dropbtn">Departments</a>
+            <div class="dropdown-content">
+                <a href="/DataBaseProject/department_management/view_dept.php">View Department</a>
+                <a href="/DataBaseProject/department_management/add_dept.php">Add Department</a>
+                <a href="/DataBaseProject/department_management/delete_dept.php">Delete Department</a>
+                <a href="/DataBaseProject/department_management/modify_dept.php">Manage Department</a>
+            </div>
+        </li>
+
         <li class="login"><a href="/DataBaseProject/auth/login.php">Login</a></li>
 
     </ul>

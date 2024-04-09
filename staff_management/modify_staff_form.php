@@ -11,7 +11,6 @@
             $_POST["salary"],
             $_POST["SupervisorID"]
         ];
-        //add moficivation to table
         updateTableArr($conn, "librarian", "ssn", $_POST["ssn"], ["ssn", "Fname", "Lname", "EmployeeID", "salary", "SupervisorID"], $dataArr);
         header("Location: modify_staff.php");
         die;
