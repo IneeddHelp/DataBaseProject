@@ -14,6 +14,7 @@
         //add moficivation to table
         updateTableArr($conn, "librarian", "ssn", $_POST["ssn"], ["ssn", "Fname", "Lname", "EmployeeID", "salary", "SupervisorID"], $dataArr);
         header("Location: modify_staff.php");
+        die;
     }
     else if($_SERVER["REQUEST_METHOD"] == "GET"){
         $ssn = $_GET["ssn"];

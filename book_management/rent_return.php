@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <?php
 
@@ -45,6 +44,7 @@ function printBooks($bookArr, $rented){
 
 ?>
 
+<!DOCTYPE html>
 
 <html>
 <head>

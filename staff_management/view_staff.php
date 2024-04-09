@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <?php
     include "../imports/database.php";
@@ -10,6 +9,8 @@
         array_push($staffArr, $row);
     }
 ?>
+
+<!DOCTYPE html>
 
 <html>
     <head>

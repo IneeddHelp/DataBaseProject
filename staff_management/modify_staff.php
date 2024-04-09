@@ -1,4 +1,3 @@
-<!DOCTYPE hmtl>
 
 <?php
 include "../imports/database.php";
@@ -13,6 +12,7 @@ while($row = mysqli_fetch_assoc($result)){
 
 ?>
 
+<!DOCTYPE hmtl>
 
 <html>
     <head>

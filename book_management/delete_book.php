@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 
 <?php
     include '../imports/database.php';
@@ -23,6 +22,7 @@
 ?>
 
 
+<!DOCTYPE html>
 
 <html>
 <head>
