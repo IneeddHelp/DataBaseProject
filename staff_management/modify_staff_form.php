@@ -11,7 +11,7 @@
             $_POST["salary"],
             $_POST["SupervisorID"]
         ];
-        updateTableArr($conn, "librarian", "ssn", $_POST["ssn"], ["ssn", "Fname", "Lname", "EmployeeID", "salary", "SupervisorID"], $dataArr);
+        updateTableArr($conn, "librarian", "ssn", $_POST["oldssn"], ["SSN", "Fname", "Lname", "EmployeeID", "Salary", "SupervisorID"], $dataArr);
         header("Location: modify_staff.php");
         die;
     }
@@ -47,6 +47,7 @@
         <input type="number" id="SupervisorID" name="SupervisorID" min="0" value="<?= $row[5] ?>" max="9999999999"><br>
         <label for="salary">Salary:</label><br>
         <input type="number" id="salary" name="salary" min="0" max="999999" value="<?= $row[4] ?>"><br>
+        <input type="hidden" value="<?= $row[0] ?>" name="oldssn">
         <input type="submit" value="Submit">
     </form>
 

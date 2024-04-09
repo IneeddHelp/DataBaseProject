@@ -7,7 +7,7 @@
             $_POST["num"],
             $_POST["mgrssn"],
         ];
-        updateTableArr($conn, "department", "Dnumber", $_POST["num"], ["Dname", "Dnumber", "Mgr_ssn"], $dataArr);
+        updateTableArr($conn, "department", "Dnumber", $_POST["oldnum"], ["Dname", "Dnumber", "Mgr_ssn"], $dataArr);
         header("Location: modify_dept.php");
         die;
     }else{
@@ -15,7 +15,6 @@
         $row = selectFromTable($conn, "department", ["Dnumber"], [$dNum])[0];
     }
     
-
 ?>
 
 
@@ -35,6 +34,7 @@
         <input type="number" id="num" name="num" value="<?= $row[1] ?>" required><br>
         <label for="mgrssn">Manager SSN:</label><br>
         <input type="number" id="mgrssn" name="mgrssn" value="<?= $row[2] ?>" required><br>
+        <input type="hidden" value="<?= $row[1] ?>" name="oldnum">
         <input type="submit" value="Submit">
     </form>
 

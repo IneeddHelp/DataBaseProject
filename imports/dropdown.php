@@ -38,6 +38,16 @@
             </div>
         </li>
 
+        <li class="dropdown">
+            <a href="#patrons" class="dropbtn">Patrons</a>
+            <div class="dropdown-content">
+                <a href="/DataBaseProject/patron_management/view_patron.php">View Patron</a>
+                <a href="/DataBaseProject/patron_management/add_patron.php">Add Patron</a>
+                <a href="/DataBaseProject/patron_management/delete_patron.php">Delete Patron</a>
+                <a href="/DataBaseProject/patron_management/modify_patron.php">Manage Patron</a>
+            </div>
+        </li>
+
         <li class="login"><a href="/DataBaseProject/auth/login.php">Login</a></li>
 
     </ul>

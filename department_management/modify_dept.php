@@ -39,7 +39,7 @@
             echo "<div class='dname'>Dept. Name: $dName</div>";
             echo "<div class='dnum'> Dept. No.: $dNum</div>";
             echo "<div class='etc'>Manager SSN: $mgrSSN</div>";
-            echo "<button type='button' class='button' onclick='location.href=\"modify_dept_form.php?dnum=$dNum\";'> Modify This Staff Member </button>";
+            echo "<button type='button' class='button' onclick='location.href=\"modify_dept_form.php?dnum=$dNum\";'> Modify This Department </button>";
         } 
         ?> 
     </body>
