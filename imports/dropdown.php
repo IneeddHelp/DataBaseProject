@@ -15,6 +15,7 @@
                 <a href="/DataBaseProject/book_management/rent_return.php">Rent/Return Book</a>
                 <a href="/DataBaseProject/book_management/add_book.php">Add Book</a>
                 <a href="/DataBaseProject/book_management/delete_book.php">Delete Book</a>
+                <a href="/DataBaseProject/book_management/modify_book.php">Manage Books</a>
             </div>
         </li>
         
@@ -48,7 +49,7 @@
             </div>
         </li>
 
-        <li class="login"><a href="/DataBaseProject/auth/login.php">Login</a></li>
+        <!-- <li class="login"><a href="/DataBaseProject/auth/login.php">Login</a></li> -->
 
     </ul>
 </body>

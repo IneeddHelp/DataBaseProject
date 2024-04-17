@@ -47,13 +47,27 @@
 <head>
     <link rel="stylesheet" href="style.css">
     <title>Add a New Book</title>
+
+    <script>
+    function validateForm(){
+        let form = document.forms["form"]
+        let isValid = form["isbn"].value.length == 9;
+
+        if(!isValid){
+            alert("ISBN must be 9 digits");
+        }
+
+        return isValid;
+
+    }
+        </script>
 </head>
 <body>
 
     <?php include '../imports/dropdown.php'; ?>
 
     <h1>Add a New Book</h1>
-    <form action="add_book.php" method="post">
+    <form action="add_book.php" method="post" name="form" onsubmit="return validateForm()">
         <label for="isbn">ISBN:</label><br>
         <input type="number" id="isbn" name="isbn" min="0" max="9999999999999" required><br>
         <label for="title">Title:</label><br>
@@ -72,7 +86,7 @@
         <input type="submit" value="Submit">
     </form>
 
-
+    
 </body>
 </html>
 
@@ -106,3 +120,5 @@
     // Close the connection
     mysqli_close($conn);
 ?>
+
+
