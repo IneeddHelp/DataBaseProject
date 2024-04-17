@@ -12,7 +12,7 @@
             <a href="#books" class="dropbtn">Books</a>
             <div class="dropdown-content">
                 <a href="/DataBaseProject/book_management/view_book.php">View Books</a>
-                <a href="/DataBaseProject/book_management/rent_return.php">Rent/Return Book</a>
+                <a href="/DataBaseProject/book_management/rent_returnW.php">Rent/Return Book</a>
                 <a href="/DataBaseProject/book_management/add_book.php">Add Book</a>
                 <a href="/DataBaseProject/book_management/delete_book.php">Delete Book</a>
                 <a href="/DataBaseProject/book_management/modify_book.php">Manage Books</a>

@@ -18,8 +18,8 @@
         <h1>Welcome to the Greendale Library</h1>
     </div>
     <div class="main">
-        <h2>About Us:</h2>
-        <p>We are suffering through the plight of using HTML</p>
+        <h2>Supplying fake books to the whole community!</h2>
+        <!-- <p>We are suffering through the plight of using HTML</p> -->
     </div>
 </body>
 </html>
